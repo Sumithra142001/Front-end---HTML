@@ -1,0 +1,14 @@
+
+<html>
+<head>
+    <title>Remaining form Tags</title>
+</head>
+<body>
+    <select>
+<option>Blue</option>
+<option>orange</option>
+<option>red</option>
+<option>purple</option>
+    </select>
+</body>
+</html>
