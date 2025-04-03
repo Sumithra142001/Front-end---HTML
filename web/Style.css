@@ -1,0 +1,98 @@
+header{
+    display: flex;
+    background-color: blue;
+    margin-top: 10%;
+
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    width: 55%;
+}   
+.menu li{
+    width: 15%;
+    color: white;
+}
+h1{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    width: 25%;
+}
+ul.icon{
+list-style-type: none;
+display: flex;
+flex-wrap: wrap;
+width: 25%;
+}
+li{
+    width: 25%;
+}
+ul{
+    list-style-type: none;
+}
+.icon img{
+width: 30%;
+height: 20px;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+}
+.left-content p{
+    background-color: aliceblue;
+}
+.left-content,.right-content{
+    flex: 1;
+}
+.center-content{
+    margin: 0 1%;
+    flex: 2;
+}
+.footer{
+    background-color: gray;
+    text-align: center;
+    padding: 1%;
+}
+.code{
+    display: none;
+}
+.Contact input{
+    width: 80%;
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+}
+.center-content h2{
+    text-align: center;
+}
+@media only screen and (max-width:480px){
+    header{
+        justify-content: space-between;
+    }
+        header h1{
+            width: 50%;
+            font-size: 25px;
+        }
+        .menu{
+            display: none;
+        }
+        .icon li{
+            display: none;
+        }
+        .main-content{
+            flex-direction: column;
+        }
+        .center-content{
+            margin: 2%;
+        }
+        .img{
+            width: 50%;
+            height: 50px;
+        }
+        .code{
+            display: block;
+        }
+
+    }
